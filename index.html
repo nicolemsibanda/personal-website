@@ -1,18 +1,43 @@
 <!DOCTYPE html>
 <html lang="en-UK">
 <head>
-<title>My personal website.</title>
+<title>NICOLE.M.S.</title>
+<link rel="icon" type="image/x-icon" href="/images/starvicon.ico">
 </head>
-<body style="background-color:black;color">
+<body style="background-color:grey;color">
 
-<h1 style="text-align:center; color:white;"> I AM NICOLE!</h1>
+<h1 style="text-align:center; color:lightblue;"  style="font-size:10vw"> I AM NICOLE!</h1>
 <h2 style="color:whitesmoke" >Welcome to my website! Feel free to stay a while. </h2>
-<p title="A little info" style="color:purple;"> This is my personal website where you will get to know more about me!</p>
+<p title="A little info" style="color:black;"> This is my personal website where you will get to know more about me!</p>
 <hr>
 <a href="https://www.google.com"> This is a link to my about me page.</a>
 <a href="https://www.google.com"> This is a link to my contact me page.</a>
 <a href="https://www.google.com"> This is a link to my home page.</a>
-<img src="/images/cyber_blue.jpg" width="1250" height="200" alt="retro pink header">
+<img src="/images/cyber_blue.jpg" width="1250" height="200" alt="blue cyber header">
+<p title="A little fyi" style="color:darkslateblue;"> <b> <i> By the end of this website you'll know:</b> </i> </p> 
+<ol> 
+    <li> <b> More about me and my interests.</b> </li>
+    <li> <b>More about my passions and hobbies. </b> </li>
+    <li> <b>  How to contact me and find out more information.</b> </li>
+</ol>
+<canvas id="myCanvas" width="200" height="100" style="border:1px solid #000000;">
+    <script>
+    var c = document.getElementById("myCanvas");
+    var ctx = c.getContext("2d");
+    
+    // Create gradient
+    var grd = ctx.createLinearGradient(0, 0, 200, 0);
+    grd.addColorStop(0, "darkblue");
+    grd.addColorStop(1, "lightblue");
+    
+    // Fill with gradient
+    ctx.fillStyle = grd;
+    ctx.fillRect(10, 10, 150, 80);
+    </script>
+
+
+
+
 
 
 </body>
